@@ -1,12 +1,182 @@
-[
-  {
-    "title": "الحريرة المغربية",
-    "description": "شوربة مغربية غنية بالمكونات.",
-    "imageUrl": "https://ralia.lesiteinfo.com/wp-content/uploads/2022/03/hrira-300x300.jpg"
+{
+
+"AppRedirect": {
+    "status"     : false,
+    "redirectURL": "https://play.google.com/store/apps/details?id=com.spotify.music"
   },
-  {
-    "title": "الكسكس بالخضار",
-    "description": "أكلة تقليدية مشهورة في المغرب العربي.",
-    "imageUrl": "https://i.pinimg.com/564x/8d/86/62/8d86625aa68ed5205c2f9cb29655b6a6.jpg"
-  }
-]
+  
+  
+  "AdController": {
+      
+      "README": [
+        "To run ads for each network, enter one of the following: 'admob' , 'facebook' ",
+        "⚠️Warning: Facebook does not support OpenAd."
+      ],
+      
+      "BannerNetwork"      : "admob",
+      "InterstitialNetwork": "admob",
+      "NativeNetwork"      : "admob",
+      
+      "OpenAdNetwork"      : "admob",
+      
+      "AdInterval"         : 2,
+      
+      "NativeAdRow"        : 2,
+
+      "AdPlacement": {
+        
+        "AdMobBanner"         : "ca-app-pub-3940256099942544/6300978111",
+        "AdMobInterstitial"   : "ca-app-pub-3940256099942544/1033173712",
+        "AdMobNative"         : "ca-app-pub-3940256099942544/2247696110",
+        "AdMobOpenAd"         : "ca-app-pub-3940256099942544/9257395921",
+        
+        "FacebookBanner"      : "IMG_16_9_APP_INSTALL#692961278482629_692963411815749",
+        "FacebookInterstitial": "IMG_16_9_APP_INSTALL#692961278482629_692963491815741",
+        "FacebookNative"      : "IMG_16_9_LINK#692961278482629_857100538735368"
+
+      }
+    },
+  
+  "PopAdSetting": {
+    "showPop"  : true,
+    "showClose": true,
+    "adList": [
+      {
+        "preview": "https://lh3.googleusercontent.com/Z-5iIKQ6vfJfauCq1_0yV6ol-qEK6KyRWmRSMYoKYqGCqfMFJJIsSgVyoJiukqnQX4yJRxoTEHxwZ4mkbfx6k-rVQsoNMx3kdCk",
+        "title": "Good new ! we added new app check it !",
+        "button_title": "Install now",
+        "button_url": "https://github.com/saidmotya/"
+      }
+    ]
+  },
+  
+  "data": [
+    {
+      "category": "Rice category",
+      "preview": "https://static01.nyt.com/images/2018/02/21/dining/00RICEGUIDE8/00RICEGUIDE8-jumbo.jpg",
+      "recipes": [
+        {
+          "title": "Javanese Fried Rice",
+          "cookPreview": "https://zonekapp.com/AndroidStudio/recipe/nasgor.jpg",
+          "cookTime": "15 min",
+          "cookVideo": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "cookSteps": [
+            "The main ingredient:",
+            "Chicken breast, egg noodles, and fresh vegetables.",
+            "1. Heat oil in a pot and sauté chopped onion, garlic, carrots, and celery.",
+            "2. Add diced chicken breast and cook until lightly browned.",
+            "3. Pour in chicken broth and bring to a boil.",
+            "https://zonekapp.com/AndroidStudio/recipe/example.jpg",
+            "4. Add egg noodles and let it cook for 8–10 minutes.",
+            "5. Season with salt, pepper, and fresh parsley.",
+            "6. Serve hot with bread or crackers."
+          ]
+        },
+        {
+          "title": "Chicken Paratha Roll",
+          "cookPreview": "https://zonekapp.com/AndroidStudio/recipe/chicken.jpg",
+          "cookTime": "20 min",
+          "cookVideo": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "cookSteps": [
+            "The main ingredient:",
+            "Chicken breast, egg noodles, and fresh vegetables.",
+            "1. Heat oil in a pot and sauté chopped onion, garlic, carrots, and celery.",
+            "2. Add diced chicken breast and cook until lightly browned.",
+            "3. Pour in chicken broth and bring to a boil.",
+            "https://zonekapp.com/AndroidStudio/recipe/example.jpg",
+            "4. Add egg noodles and let it cook for 8–10 minutes.",
+            "5. Season with salt, pepper, and fresh parsley.",
+            "6. Serve hot with bread or crackers."
+          ]
+        },
+        {
+          "title": "Test recipe 3",
+          "cookPreview": "https://zonekapp.com/AndroidStudio/recipe/nasgor.jpg",
+          "cookTime": "15 min",
+          "cookVideo": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+          "cookSteps": [
+            "The main ingredient:",
+            "Chicken breast, egg noodles, and fresh vegetables.",
+            "1. Heat oil in a pot and sauté chopped onion, garlic, carrots, and celery.",
+            "2. Add diced chicken breast and cook until lightly browned.",
+            "3. Pour in chicken broth and bring to a boil.",
+            "https://zonekapp.com/AndroidStudio/recipe/example.jpg",
+            "4. Add egg noodles and let it cook for 8–10 minutes.",
+            "5. Season with salt, pepper, and fresh parsley.",
+            "6. Serve hot with bread or crackers."
+          ]
+        },
+        {
+          "title": "Test recipe 4",
+          "cookPreview": "https://zonekapp.com/AndroidStudio/recipe/chicken.jpg",
+          "cookTime": "20 min",
+          "cookVideo": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+          "cookSteps": [
+            "The main ingredient:",
+            "Chicken breast, egg noodles, and fresh vegetables.",
+            "1. Heat oil in a pot and sauté chopped onion, garlic, carrots, and celery.",
+            "2. Add diced chicken breast and cook until lightly browned.",
+            "3. Pour in chicken broth and bring to a boil.",
+            "https://zonekapp.com/AndroidStudio/recipe/example.jpg",
+            "4. Add egg noodles and let it cook for 8–10 minutes.",
+            "5. Season with salt, pepper, and fresh parsley.",
+            "6. Serve hot with bread or crackers."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Soup category",
+      "preview": "https://healthyfitnessmeals.com/wp-content/uploads/2021/11/Creamy-chicken-tortilla-soup-5-600x600.jpg",
+      "recipes": [
+        {
+          "title": "Chicken Noodle Soup",
+          "cookPreview": "https://www.tastingtable.com/img/gallery/40-types-of-soup-and-what-makes-them-unique/intro-1661261800.jpg",
+          "cookTime": "30 min",
+          "cookVideo": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+          "cookSteps": [
+            "Boil water.",
+            "Add noodles and chicken.",
+            "Simmer until cooked.",
+            "Season to taste."
+          ]
+        },
+        {
+          "title": "Tomato Basil Soup",
+          "cookPreview": "https://i0.wp.com/s.lightorangebean.com/media/20240914150528/tomato-basil-soup_done-768x482.png",
+          "cookTime": "25 min",
+          "cookVideo": "",
+          "cookSteps": [
+            "Sauté onions and garlic in olive oil.",
+            "Add chopped tomatoes and basil leaves.",
+            "Simmer for 20 minutes.",
+            "https://zonekapp.com/AndroidStudio/recipe/example.jpg",
+            "Blend until smooth.",
+            "Serve hot."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Dessert category",
+      "preview": "https://cdn.prod.website-files.com/5ddea854c6438680c98a678d/61ed937ce6302a6ca49091e8_istockphoto-497959594-612x612.jpg",
+      "recipes": [
+        {
+          "title": "Chocolate Lava Cake",
+          "cookPreview": "https://images.getrecipekit.com/20250325120225-how-20to-20make-20chocolate-20molten-20lava-20cake-20in-20the-20microwave.png",
+          "cookTime": "40 min",
+          "cookVideo": "",
+          "cookSteps": [
+            "Preheat oven to 220°C (425°F).",
+            "Melt chocolate and butter together.",
+            "Whisk eggs and sugar until fluffy.",
+            "Combine chocolate mixture with eggs.",
+            "Pour batter into molds.",
+            "Bake for 12 minutes.",
+            "Serve warm with ice cream."
+          ]
+        }
+      ]
+    }
+  ]
+}
